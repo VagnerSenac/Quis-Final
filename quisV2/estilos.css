@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    box-sizing: border-box;
+}
+html, body{
+    background-color: #0D6374;
+    margin: 0;
+}
+main{
+    height: 100vh;
+}
+.quisp{
+    margin: 0;
+    text-align: left;
+    size: 29px;
+}
+.titulo{
+    width: 100%;
+    top: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 7px;
+    padding-left: 6px;
+    background-color: #00AB93;
+    font-family: 'Inter', sans-serif;
+    height: 49px;
+}
+.numero{
+    margin: 0;
+    text-align: right;
+    size: 14px;
+   margin-right: 5px;
+}
+.corpo{
+    text-align: center;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.corpofim{
+    text-align: center;
+    height: 90%;
+    display: flex;
+
+    
+}
+.rodapePrincipal{
+    width: 100%;
+    background-color: #00AB93;
+    position: absolute;
+    bottom: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   
+}
+.pergunta {
+    font-size: 20px;
+    color: #EBBEA9;
+    font-weight: bold;
+    margin: 0;
+ }
+ .imagem-capa{
+    height: 157v;
+    width: 100vw;
+    object-fit: cover;
+}
+ .formTexto{
+    display: flex;
+    justify-content:center;
+ }
+ .textoPrincipal{
+    text-align: justify;
+    font-size: 15px;
+    color: #EBBEA9;
+    font-weight: bold;
+    width: 280px;
+    height: 87px;
+ }
+ 
+ .botao{
+    border-bottom: 1px solid #000000;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    color: black;
+    background-color: #EA9D71;
+    width: 257px; 
+    display: block; 
+    margin: 0 auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 30px;  
+    text-align: center;
+    box-sizing: border-box;
+   
+}
+.alternativas{
+    text-align: center;
+}
+.alternativas button{
+    width: 95%;
+    margin-top: 21px;
+    background: none;
+    background: #FFFFFF;
+    border: 1px solid #00AB93;
+    border-radius: 10px;
+    height: 46px;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    color: #0D6374;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+.alternativas button:hover{
+    background-color: #FAA96E;
+    border-color: #00AB93;
+    color: black;
+}
+
+.tela{
+    text-align: center;
+    
+    
+}
+ .textoFimEspaco{
+  
+    height: 30px;
+ }
+
+ .titulo{
+    text-align: center;
+}
+.espaco{
+  
+    height: 30px;
+ }
+
+ 
